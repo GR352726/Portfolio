@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #301818;
+}
+
+#Main-Container {
+    background-color: #AE3731;
+    width: 1000px;
+    height: 5000px;
+    border: solid 1px black;
+}
+
+
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: black;
+    height: 124px;
+    width: 1000px   ;
+}
