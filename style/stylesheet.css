@@ -1,23 +1,67 @@
 body {
     margin: 0px;
     display: flex;
-    justify-content: center;
-    background-color: #301818;
+    justify-content: flex-start;
+    background-color: rgb(119, 0, 0);
 }
 
 #Main-Container {
     background-color: #AE3731;
     width: 1000px;
     height: 5000px;
-    border: solid 1px black;
+    margin-left: 750px;
 }
 
-
-
-h1 {
+#Main-Title {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     background-color: black;
-    height: 124px;
-    width: 1000px   ;
+    height: 104px;
+    width: auto;
+    font-size: 70px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#info-stuff {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80px;
+    width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+}
+
+p {
+    font-size: px;
+}
+
+#About {
+    padding-left: 10px;
+    font-size: 40px;
+}
+
+#About-section {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: black;
+    height: 750px;
+    width: auto;
+    padding-left: 50px;
+}
+
+#About-section-Photo-Filler-One {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border: solid 3px rgb(127, 127, 127);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
 }
