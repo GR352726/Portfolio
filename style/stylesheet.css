@@ -10,6 +10,7 @@ body {
     width: 1000px;
     height: 5000px;
     margin-left: 750px;
+    border: solid 4px #362A2C;
 }
 
 #Main-Title {
@@ -19,11 +20,10 @@ body {
     height: 104px;
     width: auto;
     font-size: 70px;
-    padding-left: 20px;
+    padding-left: 70px;
     padding-top: 20px;
-    padding-right: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 #info-stuff {
     background-color: #000000;
@@ -38,11 +38,12 @@ body {
 }
 
 p {
-    font-size: px;
+    font-size: 18px;
 }
 
 #About {
     padding-left: 10px;
+    padding-top: 10px;
     font-size: 40px;
 }
 
@@ -50,9 +51,9 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     background-color: black;
-    height: 750px;
+    height: 900px;
     width: auto;
-    padding-left: 50px;
+    padding-left: 40px;
 }
 
 #About-section-Photo-Filler-One {
@@ -64,4 +65,140 @@ p {
     justify-content: center;
     align-items: center;
     color: black;
+}
+
+#Portfolio {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+#Portfolio-section {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: #362A2C;
+    height: 1800px;
+    width: auto;
+    padding-left: 40px;
+}
+
+#Top-two-photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 40px;
+}
+
+#Port-photo-one {
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    border: solid 1px #000000;
+    color: #000000;
+}
+
+#Port-photo-two {
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    border: solid 1px #000000;
+    color: #000000;
+}
+
+#Middle-two-photo-A {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 40px;
+}
+
+#Port-photo-three {
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    border: solid 1px #000000;
+    color: #000000;
+}
+
+#Port-photo-four {
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    border: solid 1px #000000;
+    color: #000000;
+}
+
+#Middle-two-photo-B {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 40px;
+}
+
+#Port-photo-five {
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    border: solid 1px #000000;
+    color: #000000;
+}
+
+#Port-photo-six {
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    border: solid 1px #000000;
+    color: #000000;
+}
+
+#Bottom-two-photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 40px;
+}
+
+#Port-photo-seven {
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    border: solid 1px #000000;
+    color: #000000;
+}
+
+#Port-photo-eight {
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    border: solid 1px #000000;
+    color: #000000;
+}
+
+#Background-section {
+    background-color: #000000;
+    width: auto;
+    height: 900px;
+}
+
+#Background {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+#Contact-section {
+    background-color: #362A2C;
+    width: auto;
+    height: 1075px;
+    padding-left: 40px;
+}
+
+#Contact {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 40px;
 }
